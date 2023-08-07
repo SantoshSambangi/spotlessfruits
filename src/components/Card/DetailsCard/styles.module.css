@@ -1,0 +1,67 @@
+.detailsCardContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  width: 400px;
+}
+.orangeCard {
+  background-color: #8abc09;
+}
+
+.blueCard {
+  background-color: #ffd458;
+}
+
+.greyCard {
+  background-color: #f98b3c;
+}
+
+.defaultCard {
+  background-color: green;
+}
+
+.detailsCardLeftBlock {
+  width: 200px;
+  height: 200px;
+}
+
+.imageWidth {
+  width: 100%;
+  height: 100%;
+}
+
+.detailsCardRightBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.detaildsCardHeading {
+  font-family: "Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.detaildsCardSubHeading {
+  font-family: "Bold", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.detaildsCardSubDesc {
+  font-family: "Light", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.shopNowBtnStyles {
+  background-color: var(--green);
+  width: 150px;
+  height: 40px;
+  margin: auto;
+  color: var(--white);
+  border-radius: 6px;
+  border: 1px solid var(--green);
+  padding: 10px;
+}

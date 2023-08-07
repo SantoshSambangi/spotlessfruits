@@ -1,0 +1,60 @@
+.freshFruitCardContianer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.freshFruitImgBlock {
+  width: 250px;
+  height: 250px;
+}
+
+.imageWidth {
+  width: 100%;
+  height: 100%;
+}
+
+.freshFruitMainDescBlock {
+  /* align-items: center; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  margin: auto;
+  width: 80%;
+}
+
+.freshFruitDescBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  /* padding-top: 60px; */
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
+.freshFruitHeading {
+  font-family: "Regular", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  /* text-align: center; */
+}
+
+.pricesBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.oroginalPrice,
+.offerPrice {
+  font-family: "Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: line-through;
+}
+
+.offerPrice {
+  text-decoration: none;
+  color: #c3c3c3;
+}

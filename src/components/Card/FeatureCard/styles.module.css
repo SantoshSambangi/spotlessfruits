@@ -1,0 +1,37 @@
+.featureCardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.featureCardImgBlock {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 20px;
+  border: 2px solid #f3f3f3;
+}
+
+.imageWidth {
+  width: 100%;
+  height: 100%;
+}
+
+.featureCardDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.featureCardHeading {
+  font-family: "Regular", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.featureCardDesc {
+  font-family: "Light", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}

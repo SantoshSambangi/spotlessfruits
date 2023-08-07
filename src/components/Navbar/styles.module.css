@@ -1,0 +1,158 @@
+.navBarTopContainer {
+  background-color: var(--navbarBackgroundColor);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+  height: 142px;
+  position: relative;
+}
+
+.navBarToSubContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.navBarTopContainerImgBlock {
+  width: 30px;
+  height: 30px;
+}
+
+.imageWidth {
+  width: 100%;
+  height: 100%;
+}
+
+.navBarTopContianerMenuItem {
+  font-size: 18px;
+  font-family: "Regular", sans-serif;
+  line-height: 32px;
+  color: var(--white);
+}
+
+.navBarBottomMainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 10px;
+  background-color: var(--white);
+  border-radius: 10px;
+  width: 95%;
+  margin: auto;
+  position: relative;
+  top: -43px;
+}
+
+.navBarBottomTopDetailsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBarBottomTopDetailsLeftBlock {
+  width: 250px;
+  height: 40px;
+}
+
+.navBarBottomTopDetailsRightBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+}
+
+.navBarBottomTopDetailsRightSubBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.userInfoLogo {
+  width: 50px;
+  height: 50px;
+  color: var(--green);
+}
+
+.userDesc {
+  font-family: "Regular", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.navBarBottomCategoryContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBarBottomCategorySubContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.navBarBottomCategoryLeftBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--green);
+  color: var(--white);
+  font-family: "Medium", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  padding: 10px;
+}
+
+.navBarBottomCategoryLeftImgBlock {
+}
+
+.navBarBottomCategoryMiddleBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.menuItemHeading {
+  font-family: "Medium", sans-serif;
+  font-size: 14 px;
+  line-height: 24px;
+}
+
+.navBarBottomCategoryRightBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
+.navBarBottomCategoryRightInputStyles {
+  width: 200px;
+  height: 36px;
+  background-color: #f3f3f3;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #f3f3f3;
+  font-family: "Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.navBarBottomCategoryRightSearchImgBlock {
+  width: 30px;
+  height: 36px;
+  background-color: var(--green);
+  color: var(--white);
+  margin: 0px;
+  padding: 4px;
+}

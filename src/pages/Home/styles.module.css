@@ -1,0 +1,602 @@
+.homeMainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+/* bannerSection start */
+.bannerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+}
+
+.bannerLeftBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+.bannerLeftHeading {
+  font-family: "SemiBold", sans-serif;
+  font-size: 100px;
+  line-height: 120px;
+}
+
+.bannerLeftDesc {
+  font-family: "Light", sans-serif;
+  font-size: 40px;
+  line-height: 32px;
+}
+
+.bannerBtnStyles {
+  background-color: var(--green);
+  font-family: "SemiBold", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--white);
+  padding: 15px;
+  border: 1px solid var(--green);
+  border-radius: 60px;
+  width: 300px;
+  margin: auto;
+}
+/* bannerSection end */
+
+/* Premiun Fruit Sectio Start */
+.premiumSectionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 10px;
+}
+
+.premiumFruitsTitleBlock {
+  text-align: center;
+}
+
+.premiumFruitsTitle,
+.dealOfTheDayHeading {
+  text-align: center;
+  font-family: "Regular", sans-serif;
+  font-size: 50px;
+  line-height: 24px;
+}
+
+.premiumFruitCard {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+}
+/* Premiun Fruit Sectio End */
+
+/* dealOfTheDaySection Start */
+.dealOfTheDayContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 10px;
+  /* align-items: center; */
+}
+
+.dealOfTheDayDataContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 16px;
+  padding: 10px;
+}
+
+/* dealOfTheDaySection End */
+
+/* DETAILS SECTION START */
+
+.detailsCardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* DETAILS SECTION End */
+
+/* features Section start */
+.featuresContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+/* features Section end */
+
+/*premium import section start  */
+
+.premiumImportFruitsTitle {
+  font-family: "Regular", sans-serif;
+  font-size: 40px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.premiumImportFruitCard {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+}
+
+/*premium import section end  */
+
+/* Trending section start */
+
+.trendingNowContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 10px;
+  /* justify-content: center; */
+}
+/* Trending section end */
+
+/* Discount section start */
+
+.specialDiscountMainContainer {
+  background-color: orange;
+}
+
+.specialDiscountContainer {
+  background-image: url("../../assets/images/specialDiscountBgImg.webp");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  /* gap: 16px; */
+  align-items: center;
+  padding: 10px;
+}
+
+.specialDiscount {
+  font-family: "Regular", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--green);
+  padding: 10px;
+}
+
+.saleEndsBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  /* border: 10px solid var(--green); */
+  border-top: 10px solid var(--green);
+  border-right: 10px solid var(--green);
+  border-left: 10px solid var(--green);
+  width: 800px;
+  margin: auto;
+  padding: 50px;
+  position: relative;
+}
+
+.borderContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 400px;
+  /* flex-direction: row; */
+  /* gap: 30px; */
+  /* justify-content: space-between; */
+}
+
+.rightBorder,
+.leftBorder {
+  width: 200px;
+  border-bottom: 10px solid var(--green);
+}
+
+.discountHeading {
+  font-family: "Regular", sans-serif;
+  font-size: 70px;
+  line-height: 32px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.saleEndDesc {
+  text-align: center;
+  font-family: "Light", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  /* font-weight: 400;   */
+  position: absolute;
+  right: 38%;
+  top: 96%;
+  margin: auto;
+}
+
+.timeBlock {
+  display: flex;
+  flex-direction: row;
+  padding-block: 50px;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.timerBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.timer {
+  font-family: "Regular", sans-serif;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.time {
+  font-family: "Medium", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.shopNowBtnStyles {
+  background-color: var(--green);
+  color: var(--white);
+  font-family: "Medium", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  width: 200px;
+  margin: auto;
+  border-radius: 8px;
+  padding: 10px;
+}
+/* Discount section End */
+
+/* brand new logo section start */
+
+.brandNewContainerBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.brandNewImgBlock {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* overflow: hidden; */
+}
+
+.imageWidthOne,
+.imageWidthTwo {
+  width: 160px;
+  height: auto;
+}
+/* brand new logo section end*/
+
+/* fruit section start */
+
+.freshFruitSectionSubHeading {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.freshFruitSubHeading,
+.freshFruitSubHeadingOne {
+  font-family: "Regular", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  width: 140px;
+  text-align: center;
+}
+
+.freshFruitSubHeadingOne {
+  color: var(--white);
+  border-radius: 8px;
+  padding: 6px;
+  background-color: var(--green);
+}
+
+.freshFruitMainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.fruitSectionContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  align-items: flex-start;
+  width: 65%;
+}
+
+.fruitSectionHeading {
+  font-size: 45px;
+  font-family: "Regular", sans-serif;
+  line-height: 32px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.viewProductBtnStyle {
+  margin: auto;
+  color: var(--white);
+  border-radius: 6px;
+  padding: 6px;
+  background-color: var(--green);
+  width: 200px;
+}
+/* fruit section end */
+
+/* dealsAndNewsLetter start */
+.dealsAndNewsLeftMainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dealsAndNewsHeading,
+.dealsAndNewsHeadingSubBlock {
+  font-size: 36px;
+  font-family: "Regular", sans-serif;
+  line-height: 32px;
+  text-align: center;
+}
+
+.dealsAndNewsLetterContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.dealsAndNewsLeftCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dealsAndNewsHeading {
+  font-family: "Regular", sans-serif;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: start;
+}
+
+.dealsAndNewsLeftCard {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.dealsAndNewsHeading {
+  font-family: "Regular", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.dealsAndNewsLeftImgBlock {
+  width: 200px;
+  height: 200px;
+}
+
+.imageWidth {
+  width: 100%;
+  height: 100%;
+}
+
+.dealsAndNewsLeftDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.dealsAndNewsHeading,
+.dealsAndNewsRightDescHeading {
+  font-family: "Regular", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.dealsAndNewsDesc {
+  font-family: "Regular", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  max-width: 300px;
+  width: 100%;
+  text-align: start;
+  color: #c3c3c3;
+}
+
+.pricesBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  font-family: "Regular", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+}
+.originalPrice {
+  text-decoration: line-through;
+}
+
+.offerPrice {
+  color: #c3c3c3;
+}
+
+.timerBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Regular", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  background-color: #f3f3f3;
+  box-shadow: 0 0 5px beige;
+  width: 60%;
+  padding: 10px;
+}
+
+.timer {
+  font-family: "Regular", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.dealsAndNewsRightCard {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.dealsAndNewsRightMainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.newsLetterHeading {
+  font-family: "Regular", sans-serif;
+  font-size: 40px;
+  line-height: 32px;
+}
+
+.dealsAndNewsRightDesc {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.dealsAndNewsRightSubDescOne {
+  text-align: start;
+  max-width: 600px;
+  width: 100%;
+  font-family: "Regular", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.dealsInputAndButtonBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.emailInputStyles {
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  position: relative;
+}
+
+.subscribeBtnStyles {
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  background-color: var(--green);
+  color: var(--white);
+  text-align: center;
+  position: absolute;
+  right: 178px;
+}
+
+/* dealsAndNewsLetter end */
+
+/* contact section start */
+
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #fff;
+  box-shadow: 0 0 4px 2px #0000001a;
+  border-radius: 10px;
+  background: white;
+  padding: 20px;
+  margin-top: 10px;
+  position: relative;
+  z-index: 1000;
+  width: 90%;
+  margin: auto;
+}
+
+.contactLeftBlock,
+.contactLeftSubBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.contactLeftImgBlock {
+  width: 95px;
+  height: 95px;
+  background-color: var(--green);
+  border-radius: 50%;
+  padding: 20px;
+  color: var(--white);
+}
+
+.contactRightDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contactHeading,
+.contactInfo {
+  font-family: "Regular", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.contactAndFooterContainer {
+  position: relative;
+}
+
+.contactAndFooterContainer {
+  position: absolute;
+}
+/* contact section end */
+
+/* footer start */
+
+.footerContainer {
+  position: relative;
+  top: -80px;
+  height: calc(100vh - 80px);
+}
+/* footer end */
+
+/* chat button */
+
+.chatButtonContainer {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background-color: #79c913;
+  padding: 10px;
+  width: 150px;
+  height: 60px;
+  color: var(--white);
+  font-family: "Regular", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.chatLogo {
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,91 @@
+.trendingCardContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.trendingCardLeftBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.trendingImgBlock {
+  width: 300px;
+  height: 300px;
+}
+
+.imageWidth {
+  width: 100%;
+  height: 100%;
+}
+
+.starBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.trendingHeading {
+  font-family: "Medium", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.trendingDesc,
+.oroginalPrice,
+.offerPrice {
+  font-family: "Medium", sans-serif;
+  font-size: 14px;
+  line-height: 32px;
+}
+
+.trendingDesc {
+  max-width: 300px;
+  text-align: center;
+}
+
+.trendingPrices {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+}
+
+.oroginalPrice {
+  text-decoration: line-through;
+}
+
+.offerPrice {
+  color: #c3c3c3;
+}
+
+.trendingCardRightBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.timeBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100px;
+  border: 2px solid #f3f3f3;
+  text-align: center;
+}
+
+.timer {
+  font-family: "Regular", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.time {
+  font-family: "Light", sans-serif;
+  font-size: 12px;
+  line-height: 32px;
+}
